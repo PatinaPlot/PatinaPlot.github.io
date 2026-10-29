@@ -119,7 +119,8 @@ code, pre, kbd { font-family: var(--mono); }
 .brand img { width: var(--s7); height: var(--s7); }
 .brand small { font-family: var(--mono); font-weight: 400; font-size: var(--fs-2xs); color: var(--on-charcoal-2); }
 .top nav { margin-left: auto; display: flex; gap: var(--s5); align-items: center; }
-.top nav a { color: var(--on-charcoal-2); text-decoration: none; font-size: var(--fs-sm); }
+.top nav a { color: var(--on-charcoal-2); text-decoration: none; font-size: var(--fs-sm); white-space: nowrap; }
+.brand { white-space: nowrap; }
 .top nav a:hover { color: var(--on-charcoal); }
 
 .btn {
@@ -315,6 +316,8 @@ td { color: var(--ink-2); }
 
 @media (max-width: 960px) {
   .plot { grid-template-columns: minmax(0, 1fr); padding-right: var(--s4); }
+  .top nav a:not(.btn) { display: none; }
+  .curve .pts { display: none; }
   .flow { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: var(--s7); }
   .bento { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .tile, .tile.wide { grid-column: span 2; }
