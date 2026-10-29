@@ -1,0 +1,9 @@
+{
+  "version": "0.1.0",
+  "date": "29 Oct 2026",
+  "installer": "https://github.com/Patina-io/Patina-io.github.io/releases/download/v0.1.0/PatinaPlot-Setup.exe",
+  "notes": "https://github.com/Patina-io/Patina-io.github.io/releases/tag/v0.1.0",
+  "changes": [
+    "First public release: worksheets, 2D plots, linear and nonlinear fits, calculus, plot groups, templates, the Start page and the MCP server."
+  ]
+}
