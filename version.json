@@ -2,6 +2,7 @@
   "version": "0.1.2",
   "date": "30 Oct 2026",
   "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.2/PatinaPlot-Setup.exe",
+  "mac": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.2/patina-plot-macos.zip",
   "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.2",
   "changes": [
     "Fix: Save As, Open, Import and Export no longer leave the window \"Not responding\" while you choose a file.",
