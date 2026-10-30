@@ -1,15 +1,13 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "date": "30 Oct 2026",
-  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.1/PatinaPlot-Setup.exe",
-  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.1",
+  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.2/PatinaPlot-Setup.exe",
+  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.2",
   "changes": [
-    "Legends as tables: columns and rows from your column labels (stress ratio, confining pressure…), with merged cells and borders. Insert > Table puts a table of your own on a graph.",
-    "Plot samples in any text: \\l(n) draws plot n's line or symbol in a text box, an axis title or a table cell, and follows the plot when it changes.",
-    "Equations in any text, set as Word sets them: fractions, roots, sums, brackets. An equation editor with symbol palettes, ready-made formulas, upright words and drag to select (∑ button or Alt+=).",
-    "Titles, text boxes and table cells are typed right on the graph, equations and samples included; Shift+Enter starts a new line.",
-    "Patina Plot now tells you when a new version is out, with what it brings: update now, later, or skip that version (File > Check for updates).",
-    "Fixes: square roots get their bar, the Objects list shows symbols filled or hollow and lines dashed as drawn, legend samples use the symbol edge width.",
-    "For AI assistants (MCP): graph_add_table, graph_table_set and graph_legend_table."
+    "Fix: Save As, Open, Import and Export no longer leave the window \"Not responding\" while you choose a file.",
+    "A fit-function library of its own, 30 functions by category: exponential decay, growth and rise (ExpDec1, ExpGro1, ExpAssoc…), logarithm, peaks, sigmoids, power laws, and soil water retention (van Genuchten, Brooks-Corey) and hyperbolic stress-strain. Each starts from values guessed from the data.",
+    "Save to my functions: keep a formula you typed in the Nonlinear Fit dialog for every project.",
+    "The Nonlinear Fit dialog groups functions by category and shows the formula of the one you pick.",
+    "For AI assistants (MCP): fitfunc_list gives category, source and formula; fitfunc_save keeps a formula in your library."
   ]
 }
