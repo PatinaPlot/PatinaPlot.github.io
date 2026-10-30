@@ -51,17 +51,19 @@
 
     <h2 id="install">Install</h2>
     <ol>
-      <li>Download <code>PatinaPlot-Setup.exe</code> from the <a href="./#download">download section</a>.</li>
+      <li>Download <code>PatinaPlot-Setup.exe</code> from the <a href="./#download">download section</a> (on a Mac, see <a href="#macos">macOS</a> below).</li>
       <li>Run it and accept the licence. Patina Plot installs for your user account only, to
         <code>%LOCALAPPDATA%\Programs\Patina Plot</code>, without administrator rights.</li>
       <li>Start Patina Plot from the Start menu, or double-click any <code>.ptn</code> project.</li>
     </ol>
     <div class="callout"><p>Windows may warn that the program is from an unknown publisher,
       because it is not code-signed. Choose <b>More info</b>, then <b>Run anyway</b>.</p></div>
-    <h3>macOS (coming soon)</h3>
-    <p>When the Mac build is out, unzip <code>patina-plot-macos.zip</code> and move <code>Patina Plot.app</code> to Applications.
-      The first time, right-click it and choose <b>Open</b>, because the app is not notarized yet.
-      One app runs on both Apple silicon and Intel Macs, macOS 11 or later.</p>
+    <h3 id="macos">macOS</h3>
+    <p>Download <code>patina-plot-macos.zip</code>, unzip it and move <code>Patina Plot.app</code> to Applications.
+      The app is not notarized yet, so macOS asks once before opening it: right-click it and choose
+      <b>Open</b>, or on macOS 15 and later choose <b>Open Anyway</b> in System Settings &gt; Privacy &amp; Security.
+      One app runs on both Apple silicon and Intel Macs, macOS 11 or later. Settings and saved templates
+      live in <code>~/Library/Application Support/Patina Plot</code>.</p>
     <h3>Portable</h3>
     <p>The <code>.zip</code> for Windows holds the same programs: unzip it anywhere and run
       <code>patina-plot.exe</code>. Settings and saved templates live in

@@ -43,7 +43,7 @@
         <path class="fit" vector-effect="non-scaling-stroke" d="M0 530.0 L20 502.3 L40 476.3 L60 452.1 L80 429.3 L100 408.1 L120 388.2 L140 369.6 L160 352.3 L180 336.0 L200 320.8 L220 306.5 L240 293.2 L260 280.8 L280 269.1 L300 258.2 L320 248.0 L340 238.4 L360 229.5 L380 221.2 L400 213.3 L420 206.0 L440 199.2 L460 192.8 L480 186.8 L500 181.2 L520 176.0 L540 171.1 L560 166.5 L580 162.2 L600 158.2 L620 154.4 L640 150.9 L660 147.6 L680 144.6 L700 141.7 L720 139.0 L740 136.5 L760 134.1 L780 131.9 L800 129.9 L820 128.0 L840 126.1 L860 124.5 L880 122.9 L900 121.4 L920 120.0 L940 118.7 L960 117.5 L980 116.4 L1000 115.3 L1020 114.4 L1040 113.4 L1060 112.6 L1080 111.7 L1100 111.0 L1120 110.3 L1140 109.6 L1160 109.0 L1180 108.4 L1200 107.9"/>
       </svg>
       <div class="hero-text">
-        <p class="kicker">patina-plot <span>· graphs and curve fitting · Windows · macOS soon</span></p>
+        <p class="kicker">patina-plot <span>· graphs and curve fitting · Windows · macOS</span></p>
         <h1>Plot it. Fit it. <span class="hl">Paste it in the paper.</span></h1>
         <p class="lede">Worksheets, 2D plots, linear and nonlinear fits, integrals and smoothing,
           drawn as journal figures that paste into Word at their true width, still vector. Or hand
@@ -51,7 +51,7 @@
         <div class="cta">
           <a class="btn primary" href="#download">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>
-            Download for Windows
+            <span id="get-label">Download for Windows</span>
           </a>
           <a class="btn ghost" href="manual.html">Manual</a>
         </div>
@@ -225,14 +225,15 @@ claude mcp add patina-plot -- "/Applications/Patina Plot.app/Contents/MacOS/pati
         </ul>
       </div>
       <div class="platform">
-        <h3>macOS <span class="tag">coming soon</span></h3>
+        <h3>macOS</h3>
         <p class="meta">Apple silicon and Intel · macOS 11 or later · .zip</p>
-        <p class="fine">The Mac build is on its way. Watch the
-          <a href="https://github.com/PatinaPlot/PatinaPlot.github.io/releases">releases</a> for
-          <code>patina-plot-macos.zip</code>.</p>
+        <a class="btn primary" href="https://github.com/PatinaPlot/PatinaPlot.github.io/releases/latest/download/patina-plot-macos.zip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 21h16"/></svg>
+          patina-plot-macos.zip
+        </a>
         <ul>
           <li>One <code>Patina Plot.app</code> for both kinds of Mac, with <code>patina-mcp</code> inside</li>
-          <li>.ptn projects open with a double-click</li>
+          <li>Unzip and move it to Applications; .ptn projects open with a double-click</li>
           <li>Copy for Word puts a vector PDF and a PNG on the pasteboard</li>
         </ul>
       </div>
@@ -240,7 +241,10 @@ claude mcp add patina-plot -- "/Applications/Patina Plot.app/Contents/MacOS/pati
     <div class="notes">
       <p class="fine">Windows may show a SmartScreen warning the first time because the program is
         not code-signed: choose <b>More info</b>, then <b>Run anyway</b>.</p>
-      <p class="fine">Patina Plot does not update itself yet: new versions appear on this page.
+      <p class="fine">The Mac app is not notarized yet, so macOS asks once before opening it: right-click
+        it and choose <b>Open</b>, or on macOS 15 and later choose <b>Open Anyway</b> in System Settings &gt;
+        Privacy &amp; Security.</p>
+      <p class="fine">Patina Plot checks this page once a day and offers new versions itself.
         <a href="https://github.com/PatinaPlot/PatinaPlot.github.io/releases">All releases and notes →</a></p>
     </div>
   </div>
@@ -253,5 +257,8 @@ claude mcp add patina-plot -- "/Applications/Patina Plot.app/Contents/MacOS/pati
     <span>Word, PowerPoint and Excel are trademarks of Microsoft Corporation. Patina Plot is not affiliated with Microsoft.</span>
   </div>
 </footer>
+<script>
+  if (/Mac/.test(navigator.platform || navigator.userAgent)) document.getElementById('get-label').textContent = 'Download for Mac';
+</script>
 </body>
 </html>
