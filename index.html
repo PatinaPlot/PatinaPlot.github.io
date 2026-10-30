@@ -16,7 +16,7 @@
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="./"><img src="assets/icon-256.png" alt="">Patina Plot <small>v0.1.0</small></a>
+    <a class="brand" href="./"><img src="assets/icon-256.png" alt="">Patina Plot <small>v0.1.1</small></a>
     <nav>
       <a href="#workflow">How it works</a>
       <a href="#agents">AI plotting</a>
@@ -67,7 +67,7 @@
 
 <div class="wrap report">
   <div class="report-head">
-    <p class="label">Fit report · Patina Plot 0.1.0</p>
+    <p class="label">Fit report · Patina Plot 0.1.1</p>
     <p class="fine">all values exact</p>
   </div>
   <table>
@@ -157,9 +157,10 @@ claude mcp add patina-plot -- "/Applications/Patina Plot.app/Contents/MacOS/pati
       <p class="more"><a href="manual.html#mcp">MCP setup for every client →</a></p>
     </div>
     <figure class="sheet">
-      <img src="assets/creep-strain.png" width="1004" height="753" loading="lazy" alt="Irreversible creep strain against effective principal stress ratio for KMUTT sand at 30, 45 and 60 degrees C, experiments as lines with symbols and simulations as dashed lines">
-      <figcaption>Built entirely through MCP: creep strain of a sand at three temperatures,
-        experiments against simulations, labelled on the graph, exported at 300 dpi.</figcaption>
+      <img src="assets/mohr-circles.png" width="1213" height="797" loading="lazy" alt="Mohr circles of a consolidated-undrained triaxial test on soft clay at three confining pressures, effective stress as solid circles and total stress as dashed ones, with both failure envelopes and the legend laid out as a table">
+      <figcaption>Built entirely through MCP: Mohr circles of a CU triaxial test on soft clay,
+        effective and total, failure envelopes from a σ<sub>1</sub>–σ<sub>3</sub> regression, and
+        the legend as a table.</figcaption>
     </figure>
   </div>
 </section>
@@ -170,10 +171,13 @@ claude mcp add patina-plot -- "/Applications/Patina Plot.app/Contents/MacOS/pati
     <h2>Straight out of Patina Plot.</h2>
     <p class="sub">No retouching: these are the exported files.</p>
     <div class="gallery">
-      <figure class="sheet"><img src="assets/peak-fit.png" width="736" height="552" loading="lazy" alt="A Gaussian fitted through discharge data with error bars, with Thai and English labels">
-        <figcaption>A Gaussian fitted to a discharge peak with error bars, labels in Thai and
-          English.</figcaption></figure>
-      <figure class="sheet"><img src="assets/feature-plot-setup.jpg" width="1366" height="768" loading="lazy" alt="The Plot Setup window choosing X and Y columns for several curves at once">
+      <figure class="sheet"><img src="assets/failure-regression.png" width="1039" height="780" loading="lazy" alt="Major against minor principal stress at failure with linear fits for effective and total stress, the conversion to c and phi written as equations, and a table legend">
+        <figcaption>Linear regression in σ<sub>1</sub>–σ<sub>3</sub>, the conversion to c and φ
+          set as equations, points coloured by confining pressure.</figcaption></figure>
+      <figure class="sheet"><img src="assets/triaxial-shearing.png" width="1039" height="780" loading="lazy" alt="Deviator stress against axial strain for three stages of a multistage triaxial test">
+        <figcaption>Deviator stress against axial strain for the three stages of the
+          test.</figcaption></figure>
+      <figure class="sheet wide"><img src="assets/feature-plot-setup.jpg" width="1366" height="768" loading="lazy" alt="The Plot Setup window choosing X and Y columns for several curves at once">
         <figcaption>Plot Setup picks the columns for many curves at once, with their error columns
           and panels.</figcaption></figure>
     </div>

@@ -1,9 +1,15 @@
 {
-  "version": "0.1.0",
-  "date": "29 Oct 2026",
-  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.0/PatinaPlot-Setup.exe",
-  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.0",
+  "version": "0.1.1",
+  "date": "30 Oct 2026",
+  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.1/PatinaPlot-Setup.exe",
+  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.1",
   "changes": [
-    "First public release: worksheets, 2D plots, linear and nonlinear fits, calculus, plot groups, templates, the Start page and the MCP server."
+    "Legends as tables: columns and rows from your column labels (stress ratio, confining pressure…), with merged cells and borders. Insert > Table puts a table of your own on a graph.",
+    "Plot samples in any text: \\l(n) draws plot n's line or symbol in a text box, an axis title or a table cell, and follows the plot when it changes.",
+    "Equations in any text, set as Word sets them: fractions, roots, sums, brackets. An equation editor with symbol palettes, ready-made formulas, upright words and drag to select (∑ button or Alt+=).",
+    "Titles, text boxes and table cells are typed right on the graph, equations and samples included; Shift+Enter starts a new line.",
+    "Patina Plot now tells you when a new version is out, with what it brings: update now, later, or skip that version (File > Check for updates).",
+    "Fixes: square roots get their bar, the Objects list shows symbols filled or hollow and lines dashed as drawn, legend samples use the symbol edge width.",
+    "For AI assistants (MCP): graph_add_table, graph_table_set and graph_legend_table."
   ]
 }
