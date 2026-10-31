@@ -338,3 +338,14 @@ td { color: var(--ink-2); }
   section { padding: var(--s12) 0; }
   table { display: block; overflow-x: auto; }
 }
+
+/* Sister app from the same team, at the top of the footer */
+footer .family { justify-content: flex-start; align-items: center; gap: var(--s4) var(--s7); padding-bottom: var(--s7); margin-bottom: var(--s7); border-bottom: var(--hair) solid var(--charcoal-line); }
+.family-label { font-family: var(--mono); font-size: var(--fs-2xs); letter-spacing: var(--tracking-caps); text-transform: uppercase; color: var(--on-charcoal-2); }
+.sibling { display: flex; align-items: center; gap: var(--s4); max-width: 600px; min-height: var(--touch); padding: var(--s3) var(--s5) var(--s3) var(--s3); border: var(--hair) solid var(--charcoal-line); border-radius: var(--radius); color: var(--on-charcoal); text-decoration: none; transition: border-color var(--dur); }
+.sibling img { width: 40px; height: 40px; flex: none; }
+.sibling b { display: block; font-size: var(--fs-md); }
+.sibling small { display: block; font-size: var(--fs-xs); line-height: 1.45; color: var(--on-charcoal-2); }
+.sibling svg { width: var(--icon); height: var(--icon); flex: none; color: var(--mint); }
+.sibling:hover { border-color: var(--mint); }
+.sibling:focus-visible { outline: var(--line) solid var(--mint); outline-offset: var(--focus-gap); }
