@@ -1,14 +1,15 @@
 {
-  "version": "0.1.2",
-  "date": "30 Oct 2026",
-  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.2/PatinaPlot-Setup.exe",
-  "mac": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.2/patina-plot-macos.zip",
-  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.2",
+  "version": "0.1.3",
+  "date": "1 Nov 2026",
+  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.3/PatinaPlot-Setup.exe",
+  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.3",
   "changes": [
-    "Fix: Save As, Open, Import and Export no longer leave the window \"Not responding\" while you choose a file.",
-    "A fit-function library of its own, 30 functions by category: exponential decay, growth and rise (ExpDec1, ExpGro1, ExpAssoc…), logarithm, peaks, sigmoids, power laws, and soil water retention (van Genuchten, Brooks-Corey) and hyperbolic stress-strain. Each starts from values guessed from the data.",
-    "Save to my functions: keep a formula you typed in the Nonlinear Fit dialog for every project.",
-    "The Nonlinear Fit dialog groups functions by category and shows the formula of the one you pick.",
-    "For AI assistants (MCP): fitfunc_list gives category, source and formula; fitfunc_save keeps a formula in your library."
+    "Export Graph window: a preview of the page, PNG, PDF, SVG or EMF, the PNG resolution, a transparent background and where to save.",
+    "A redesigned Nonlinear Fit dialog: function, data, parameters and a live preview side by side; several datasets with their own X ranges; fix, share or bound parameters.",
+    "A redesigned Plot Setup: sheets by folder and workbook, a role for each column, and a preview of the graph.",
+    "Import Excel and LibreOffice files (.xlsx, .xls, .xlsb, .ods) as well as text files.",
+    "Rescale X or Y alone, and Clip data to frame for symbols, error bars and labels.",
+    "A new Insert tab on the ribbon, and a new worksheet header with long names and units.",
+    "For AI assistants (MCP): data_import reads a file by its path; fit_multi takes bounds, X ranges and error weights."
   ]
 }
