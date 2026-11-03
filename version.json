@@ -4,12 +4,12 @@
   "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.4/PatinaPlot-Setup.exe",
   "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.4",
   "changes": [
-    "Contour plots of scattered X, Y, Z points such as finite-element results: levels, colour maps, and ranges that clip at a value or a percentile.",
-    "Colour bars beside, below or anywhere on the page, one for every panel if you like; drag the bar and its title.",
-    "Polar graphs, angle and radius around a pole, with rings, spokes and angle labels.",
-    "Fill the area between two plots, and give a layer equal X and Y scales or no axes at all.",
+    "Contour plots: filled contours of scattered X, Y, Z points such as finite-element results, with levels, colour maps and ranges that clip at a value or a percentile.",
+    "Colour bars: beside, below or anywhere on the page, one for every panel if you like; drag the bar and its title.",
+    "Polar graphs: angle and radius around a pole, with rings, spokes and angle labels.",
+    "Fills and scales: fill the area between two plots; give a layer equal X and Y scales or no axes at all.",
     "Plot groups: a group's colours, symbols and line styles apply to every plot in it; drag plots in the Objects tab to join or leave a group.",
-    "Type Long Name, Units and Comments in the worksheet header and the Inspector; right-click a graph for Plot Setup, Format and Rescale.",
+    "Worksheet and graph: type Long Name, Units and Comments in the header and the Inspector; right-click a graph for Plot Setup, Format and Rescale.",
     "For AI assistants (MCP): graph_add_plot draws contours; graph_style sets colour bars, polar layers, equal scales and fills between plots."
   ]
 }
