@@ -2,6 +2,7 @@
   "version": "0.1.4",
   "date": "3 Nov 2026",
   "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.4/PatinaPlot-Setup.exe",
+  "mac": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.4/patina-plot-macos.zip",
   "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.4",
   "changes": [
     "Contour plots: filled contours of scattered X, Y, Z points such as finite-element results, with levels, colour maps and ranges that clip at a value or a percentile.",
