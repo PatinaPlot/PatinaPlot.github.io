@@ -1,12 +1,12 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "date": "5 Nov 2026",
-  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.6/PatinaPlot-Setup.exe",
-  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.6",
+  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.7/PatinaPlot-Setup.exe",
+  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.7",
   "changes": [
-    "Report a bug, with a screenshot: circle what is wrong on a picture of the window, and GitHub opens with the report filled in; from the Start page, the status bar or Help on the ribbon.",
-    "Fonts, easy to find: click an empty part of the page and the Inspector starts with FONTS, where the Latin and Thai fonts are picked from the ones installed.",
-    "Equation window: sharp on screens scaled to 125 % or 150 %, with every symbol in its palettes.",
-    "From 0.1.5: a redesigned legend, Objects tab, Project panel and Inspector, Plot symbols in any text, and a question before unsaved changes are lost."
+    "A cleaner window: Segoe UI throughout, graph and workbook tabs told apart by icon, and a blue line on the window you work in.",
+    "Windows side by side or floating, and back again with Dock back or Dock all windows back.",
+    "Shape and line style pickers in the Plot group editor: every choice drawn at once, and a Set menu for whole lists.",
+    "Fixed: closing the last window or floating every tab no longer closes Patina; sheet tabs no longer run under the zoom control."
   ]
 }
