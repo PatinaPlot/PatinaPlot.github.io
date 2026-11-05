@@ -1,16 +1,16 @@
 {
-  "version": "0.1.4",
-  "date": "3 Nov 2026",
-  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.4/PatinaPlot-Setup.exe",
-  "mac": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.4/patina-plot-macos.zip",
-  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.4",
+  "version": "0.1.5",
+  "date": "5 Nov 2026",
+  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.5/PatinaPlot-Setup.exe",
+  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.5",
   "changes": [
-    "Contour plots: filled contours of scattered X, Y, Z points such as finite-element results, with levels, colour maps and ranges that clip at a value or a percentile.",
-    "Colour bars: beside, below or anywhere on the page, one for every panel if you like; drag the bar and its title.",
-    "Polar graphs: angle and radius around a pole, with rings, spokes and angle labels.",
-    "Fills and scales: fill the area between two plots; give a layer equal X and Y scales or no axes at all.",
-    "Plot groups: a group's colours, symbols and line styles apply to every plot in it; drag plots in the Objects tab to join or leave a group.",
-    "Worksheet and graph: type Long Name, Units and Comments in the header and the Inspector; right-click a graph for Plot Setup, Format and Rescale.",
-    "For AI assistants (MCP): graph_add_plot draws contours; graph_style sets colour bars, polar layers, equal scales and fills between plots."
+    "Legend from the graph: right-click an entry to take it out of the legend; double-click the legend for the new Legend editor with Entries and Free text.",
+    "Plot symbols in any text: a Plot symbol button puts a plot's symbol, line or both into a title, a label or a table cell.",
+    "Drawing order: Order on the right-click menu and Ctrl+[ / Ctrl+] move a text, line or shape forward or back; Behind the data puts it under the points.",
+    "Objects tab: the top row is drawn on top, in three sections (over the data, data, behind the data), with buttons to reorder, group and delete.",
+    "Project panel: folders inside folders, search, Graphs and Workbooks filters, a thumbnail for each graph, and whether the project is saved.",
+    "Inspector: a card for what is selected, quick switches such as In legend and Log, and folding sections; More… opens every setting.",
+    "Save changes: closing, opening another project or starting a new one asks first when there are unsaved changes.",
+    "Plot Setup: click a plot to see it and point it at other columns, keeping its look."
   ]
 }
