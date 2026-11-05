@@ -1,16 +1,12 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "date": "5 Nov 2026",
-  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.5/PatinaPlot-Setup.exe",
-  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.5",
+  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.6/PatinaPlot-Setup.exe",
+  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.6",
   "changes": [
-    "Legend from the graph: right-click an entry to take it out of the legend; double-click the legend for the new Legend editor with Entries and Free text.",
-    "Plot symbols in any text: a Plot symbol button puts a plot's symbol, line or both into a title, a label or a table cell.",
-    "Drawing order: Order on the right-click menu and Ctrl+[ / Ctrl+] move a text, line or shape forward or back; Behind the data puts it under the points.",
-    "Objects tab: the top row is drawn on top, in three sections (over the data, data, behind the data), with buttons to reorder, group and delete.",
-    "Project panel: folders inside folders, search, Graphs and Workbooks filters, a thumbnail for each graph, and whether the project is saved.",
-    "Inspector: a card for what is selected, quick switches such as In legend and Log, and folding sections; More… opens every setting.",
-    "Save changes: closing, opening another project or starting a new one asks first when there are unsaved changes.",
-    "Plot Setup: click a plot to see it and point it at other columns, keeping its look."
+    "Report a bug, with a screenshot: circle what is wrong on a picture of the window, and GitHub opens with the report filled in; from the Start page, the status bar or Help on the ribbon.",
+    "Fonts, easy to find: click an empty part of the page and the Inspector starts with FONTS, where the Latin and Thai fonts are picked from the ones installed.",
+    "Equation window: sharp on screens scaled to 125 % or 150 %, with every symbol in its palettes.",
+    "From 0.1.5: a redesigned legend, Objects tab, Project panel and Inspector, Plot symbols in any text, and a question before unsaved changes are lost."
   ]
 }
