@@ -1,12 +1,12 @@
 {
-  "version": "0.1.7",
-  "date": "5 Nov 2026",
-  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.7/PatinaPlot-Setup.exe",
-  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.7",
+  "version": "0.1.8",
+  "date": "12 Nov 2026",
+  "installer": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/download/v0.1.8/PatinaPlot-Setup.exe",
+  "notes": "https://github.com/PatinaPlot/PatinaPlot.github.io/releases/tag/v0.1.8",
   "changes": [
-    "A cleaner window: Segoe UI throughout, graph and workbook tabs told apart by icon, and a blue line on the window you work in.",
-    "Windows side by side or floating, and back again with Dock back or Dock all windows back.",
-    "Shape and line style pickers in the Plot group editor: every choice drawn at once, and a Set menu for whole lists.",
-    "Fixed: closing the last window or floating every tab no longer closes Patina; sheet tabs no longer run under the zoom control."
+    "Pictures on graphs: Insert > Picture places a PNG or JPEG, and a double-click crops it in place with black handles; Reset crop brings the whole picture back.",
+    "Smoother zoom on graphs: no stutter while zooming, sharp again as soon as the zoom rests.",
+    "The blue line above the active window is gone; its highlighted tab already shows it.",
+    "Fixed: Patina could not be closed when the project changed while the Start page was showing (for example over MCP); closing now asks whether to save."
   ]
 }
